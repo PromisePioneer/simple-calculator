@@ -18,21 +18,21 @@ Console.WriteLine("[S]ubtract");
 Console.WriteLine("[M]ultiply");
 
 
-string userInput = Console.ReadLine();
+string choice = Console.ReadLine();
 
 
 
-if (userInput == "A" || userInput == "a")
+if (EqualCaseSensitive(choice, "A"))
 {
     Console.WriteLine($"{number1} + {number2} = {Add(number1, number2)}");
 }
 
-if (userInput == "S" || userInput == "s")
+if (EqualCaseSensitive(choice, "S"))
 {
     Console.WriteLine($"{number1} - {number2} = {Subtract(number1, number2)}");
 }
 
-if (userInput == "M" || userInput == "m")
+if (EqualCaseSensitive(choice, "M"))
 {
     Console.WriteLine($"{number1} * {number2} = {Subtract(number1, number2)}");
 }
@@ -55,4 +55,9 @@ int Subtract(int a, int b)
 int Multiply(int a, int b)
 {
     return a * b;
+}
+
+bool EqualCaseSensitive(string left, string right)
+{
+    return left.ToUpper() == right.ToUpper();
 }

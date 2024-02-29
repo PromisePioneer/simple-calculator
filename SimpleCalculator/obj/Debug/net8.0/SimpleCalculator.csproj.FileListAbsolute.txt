@@ -12,3 +12,4 @@ D:\belajar\c#\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0\refint\SimpleCa
 D:\belajar\c#\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0\SimpleCalculator.pdb
 D:\belajar\c#\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0\SimpleCalculator.genruntimeconfig.cache
 D:\belajar\c#\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0\ref\SimpleCalculator.dll
+D:\belajar\c#\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0\SimpleCalculator.sourcelink.json
